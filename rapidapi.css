@@ -1,0 +1,142 @@
+.bg{
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgb(48, 241, 255);
+    background-image:linear-gradient(to right,rgb(0, 238, 255),rgba(17, 17, 115, 0.8) 80%); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.head{
+    padding: 0 40rem 0 5rem;
+    height: 12vh;
+    width: 100%;
+    background-color: rgb(255, 174, 23);
+    /* background-image: linear-gradient(to right,rgb(246, 160, 0) 38%,rgb(74, 255, 153)); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid rgb(49, 211, 49);
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3);
+
+}
+
+.img{
+    height: 25vh;
+    width: 100%;
+}
+
+.img img{
+    height: 26vh;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(50%);
+    position: absolute;
+}
+
+.img h1{
+position: absolute;
+top: 15px;
+left: 20px;
+color: #fff;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.logo img{
+    height: 80px;
+}
+
+.logo p{
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+.fill{
+    width: 100%;
+}
+
+.fill input{
+    border-radius: 5px;
+}
+
+.fill #food{
+    padding-left: 10px;
+    height: 2.5rem;
+    border: 1px solid gray;
+    width: 15rem;
+    font-size: 15px;
+}
+
+.fill .send{
+    height: 2.5rem;
+    width: 4.5rem;
+    border: none;
+    background-color: rgb(30, 194, 28);
+    color: white;
+    font-weight: 600;
+    transition: 0.3s;
+    
+}
+
+.fill .send:hover{
+    background-color: rgb(38, 255, 0);
+}
+
+.fill .send:focus{
+    background-color: rgb(102, 255, 75);
+}
+
+.all{
+    padding: 20px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#food:focus{
+    border: none;
+}
+
+table{
+    width: 26rem;
+    height: 25rem;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 7px 7px 11px rgba(0, 0, 0, 0.4);
+}
+
+.one th{
+    color: red;
+}
+
+.one td{
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(0, 255, 0);
+}
+
+th{
+    padding: 10px;
+    padding-left: 15px;
+}
+
+td{
+    text-transform: capitalize;
+}
+
+tr:nth-child(even) {
+    background-color: #c6c6c6;
+  }
+
+  
+
+
